@@ -67,7 +67,7 @@ This is a selection of the technologies I'm proficient in and enjoy working with
     </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=kafka" width="48" height="48" alt="Kafka" />
-      <br><strong>Kaka</strong>
+      <br><strong>Kafka</strong>
     </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="c" />
