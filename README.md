@@ -1,1 +1,1 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=20F700&width=435&lines=I'm+passionate+about...;Backend+Development+with+Python;Frontend+with+React+%26+Vite;Building+AI-powered+applications)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0CF70C&background=000000&center=true&vCenter=true&width=435&lines=hello;I'm;amine+EL+GARDOUM;DATA+ENGINNERING;DATA+enthusiast;AI+enthusiast)](https://git.io/typing-svg)
