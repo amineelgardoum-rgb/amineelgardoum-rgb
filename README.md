@@ -1,1 +1,118 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=40&pause=1000&color=0CF70C&background=2B2A2A&center=true&vCenter=true&width=435&lines=hello;I'm;amine+EL+GARDOUM;DATA+ENGINNERING;DATA+enthusiast;AI)](https://git.io/typing-svg)
+<!-- 
+Hi there! Thanks for using my template. 
+To customize, find and replace the following placeholders:
+- [Your Name]
+- [Your-GitHub-Username]
+- [your-linkedin-username]
+- [your-twitter-handle]
+- [your-website-url]
+- All the descriptions and tech stack icons
+
+You can find more icons at: https://simpleicons.org/ or https://devicon.dev/
+You can generate more badges at: https://shields.io/
+-->
+
+<!-- Header Section -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&pause=1000&color=3399FF&center=true&width=435&lines=Hi+there%2C+I'm+Amine+El+Gardoum+👋;A+Passionate+Software+Developer;Always+Learning+and+Growing" alt="Typing SVG" />
+</p>
+
+<!-- Social Icons -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/amine-el-gardoum-491a82333">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://twitter.com/https://x.com/AMINE44467019">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  </a>
+  <a href="https://portfolio-s-amine.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+  </a>
+</p>
+
+---
+
+### 👨‍💻 About Me
+
+I'm a passionate and driven software developer with a knack for creating elegant solutions to complex problems. My journey in tech started with a fascination for how things work, and it has evolved into a career where I get to build innovative and impactful applications.
+
+-   🔭 I’m currently working on a **RAG-powered AI Chatbot** that leverages modern backend and frontend technologies.
+-   🌱 I’m currently learning about **Advanced Docker orchestration** and **serverless architecture**.
+-   👯 I’m looking to collaborate on **Data driven projects**.
+-   💬 Ask me about **Python, FastAPI, React, or anything related to Data**.
+-   📫 How to reach me: Drop me a message on [LinkedIn](https://www.linkedin.com/in/amine-el-gardoum-491a82333)!
+-   ⚡ Fun fact: I believe the best code is not just functional, but also beautiful and easy to read.
+
+---
+
+### 💻 Tech Stack & Tools
+
+This is a selection of the technologies I'm proficient in and enjoy working with.
+
+<table>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
+      <br><strong>Python</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI" />
+      <br><strong>FastAPI</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+      <br><strong>React</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
+      <br><strong>Node.js</strong>
+    </td>
+     <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
+      <br><strong>MongoDB</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
+      <br><strong>Docker</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+      <br><strong>Git</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Java" />
+      <br><strong>Java</strong>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📊 GitHub Stats
+
+Here's a snapshot of my activity and stats on GitHub.
+
+<p align="center">
+  <!-- Replace [Your-GitHub-Username] with your actual username -->
+  <img src="https://github-readme-stats.vercel.app/api?username=amineelgardoum-rgb&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amineelgardoum-rgb&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+</p>
+
+---
+
+### 🚀 My Projects
+
+Here are some of the projects I'm proud of. They are pinned on my GitHub profile.
+
+<p align="center">
+  <!-- Replace `amineelgardoum-rgb` with your GitHub username -->
+  <a href="https://github.com/amineelgardoum-rgb">
+    <img src="https://github-readme-pinned-repos.vercel.app/api?username=amineelgardoum-rgb" alt="Pinned Repositories" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  Thanks for visiting my profile!
+</p>
