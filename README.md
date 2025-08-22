@@ -8,12 +8,15 @@
   <a href="https://www.linkedin.com/in/amine-el-gardoum-491a82333">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
+  <br>
   <a href="https://twitter.com/https://x.com/AMINE44467019">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
+  <br>
   <a href="https://portfolio-s-amine.netlify.app/">
     <img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
+  <br>
 </p>
 
 ---
