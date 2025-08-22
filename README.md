@@ -1,20 +1,5 @@
-<!-- 
-Hi there! Thanks for using my template. 
-To customize, find and replace the following placeholders:
-- [Your Name]
-- [Your-GitHub-Username]
-- [your-linkedin-username]
-- [your-twitter-handle]
-- [your-website-url]
-- All the descriptions and tech stack icons
-
-You can find more icons at: https://simpleicons.org/ or https://devicon.dev/
-You can generate more badges at: https://shields.io/
--->
-
-<!-- Header Section -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&pause=1000&color=3399FF&center=true&width=435&lines=Hi+there%2C+I'm+Amine+El+Gardoum+👋;A+Passionate+Software+Developer;Always+Learning+and+Growing" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=3399FF&center=true&width=300&lines=Hi+there%2C+I'm+Amine+El+Gardoum+👋;A+Passionate+Data+engineering;Always+Learning+and+Growing" alt="Typing SVG" />
 </p>
 
 <!-- Social Icons -->
@@ -34,10 +19,10 @@ You can generate more badges at: https://shields.io/
 
 ### 👨‍💻 About Me
 
-I'm a passionate and driven software developer with a knack for creating elegant solutions to complex problems. My journey in tech started with a fascination for how things work, and it has evolved into a career where I get to build innovative and impactful applications.
+I'm a passionate and driven Data engineering with a knack for creating elegant solutions to complex problems. My journey in tech started with a fascination for how things work, and it has evolved into a career where I get to build innovative and impactful Data related projects.
 
 -   🔭 I’m currently working on a **RAG-powered AI Chatbot** that leverages modern backend and frontend technologies.
--   🌱 I’m currently learning about **Advanced Docker orchestration** and **serverless architecture**.
+-   🌱 I’m currently learning about **Advanced Docker orchestration** and **serverless architecture** also **AWS cloud services**.
 -   👯 I’m looking to collaborate on **Data driven projects**.
 -   💬 Ask me about **Python, FastAPI, React, or anything related to Data**.
 -   📫 How to reach me: Drop me a message on [LinkedIn](https://www.linkedin.com/in/amine-el-gardoum-491a82333)!
@@ -63,10 +48,6 @@ This is a selection of the technologies I'm proficient in and enjoy working with
       <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
       <br><strong>React</strong>
     </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
-      <br><strong>Node.js</strong>
-    </td>
      <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
       <br><strong>MongoDB</strong>
@@ -80,7 +61,7 @@ This is a selection of the technologies I'm proficient in and enjoy working with
       <br><strong>Git</strong>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Java" />
+      <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" />
       <br><strong>Java</strong>
     </td>
   </tr>
@@ -93,7 +74,6 @@ This is a selection of the technologies I'm proficient in and enjoy working with
 Here's a snapshot of my activity and stats on GitHub.
 
 <p align="center">
-  <!-- Replace [Your-GitHub-Username] with your actual username -->
   <img src="https://github-readme-stats.vercel.app/api?username=amineelgardoum-rgb&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amineelgardoum-rgb&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </p>
@@ -105,7 +85,6 @@ Here's a snapshot of my activity and stats on GitHub.
 Here are some of the projects I'm proud of. They are pinned on my GitHub profile.
 
 <p align="center">
-  <!-- Replace `amineelgardoum-rgb` with your GitHub username -->
   <a href="https://github.com/amineelgardoum-rgb">
     <img src="https://github-readme-pinned-repos.vercel.app/api?username=amineelgardoum-rgb" alt="Pinned Repositories" />
   </a>
