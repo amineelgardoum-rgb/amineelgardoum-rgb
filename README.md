@@ -1,7 +1,8 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=3399FF&center=true&width=300&lines=Hi+there%2C+I'm+Amine+El+Gardoum+👋;A+Passionate+Data+engineering;Always+Learning+and+Growing" alt="Typing SVG" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=435&lines=I'm+Amine+El+Gardoum;Passionate+Data+Engineer;Always+Learning+%26+Growing" alt="Typing SVG" />
+  </a>
 </p>
-
 <!-- Social Icons -->
 <p align="center">
   <a href="https://www.linkedin.com/in/amine-el-gardoum-491a82333">
@@ -64,8 +65,28 @@ This is a selection of the technologies I'm proficient in and enjoy working with
       <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" />
       <br><strong>Java</strong>
     </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=kafka" width="48" height="48" alt="Kafka" />
+      <br><strong>Kaka</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="c" />
+      <br><strong>C</strong>
+    </td>
   </tr>
 </table>
+
+---
+### 🚀 My Projects
+
+Here are a few of the projects I'm most proud of.
+
+| Project                                                                                                | Description                                                                                                                                                             | Technologies Used                               |
+| :----------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------- |
+| **[RAG-Powered AI Chatbot](https://github.com/amineelgardoum-rgb/Rag_amine_chatbot)**               | A fully functional, containerized chatbot using Retrieval-Augmented Generation to provide intelligent answers from a knowledge base. Orchestrated with Docker Compose.      | `Docker`, `FastAPI`, `Python`, `React`, `Node.js` |
+| **[Car Sales Prediction Model](https://github.com/amineelgardoum-rgb/Prediction_Sales)**             | A predictive model that analyzes economic factors like vehicle prices, inflation, and interest rates to forecast car sales. Detailed in a Jupyter Notebook.              | `Python`, `Jupyter`, `Pandas`, `Scikit-learn`   |
+| **[Real-Time Bitcoin Data Pipeline](https://github.com/amineelgardoum-rgb/transactions_e_commerce_pipeline)**        | A complete, real-time data streaming pipeline for ingesting, processing, storing, and visualizing live Bitcoin price data, built on a dockerized microservices architecture. | `Docker`, `Microservices`, `Kafka`              |
+| **[Brain Tumor Classification App](https://github.com/amineelgardoum-rgb/tumor)**         | A real-time web application built with FastAPI that classifies brain tumors from uploaded MRI scans using a pre-trained deep learning model from KaggleHub.                | `FastAPI`, `Python`, `Deep Learning`,`HTML`,`CSS`            |
 
 ---
 
@@ -79,19 +100,6 @@ Here's a snapshot of my activity and stats on GitHub.
 </p>
 
 ---
-
-### 🚀 My Projects
-
-Here are some of the projects I'm proud of. They are pinned on my GitHub profile.
-
-<p align="center">
-  <a href="https://github.com/amineelgardoum-rgb">
-    <img src="https://github-readme-pinned-repos.vercel.app/api?username=amineelgardoum-rgb" alt="Pinned Repositories" />
-  </a>
-</p>
-
----
-
 <p align="center">
   Thanks for visiting my profile!
 </p>
