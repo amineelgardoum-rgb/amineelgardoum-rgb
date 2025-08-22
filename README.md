@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=435&lines=I'm+Amine+El+Gardoum;Passionate+Data+Engineer;Always+Learning+%26+Growing" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=white&center=true&vCenter=true&width=435&lines=I'm+Amine+El+Gardoum;Passionate+Data+Engineer;Always+Learning+%26+Growing" alt="Typing SVG" />
   </a>
 </p>
 <!-- Social Icons -->
@@ -75,6 +75,10 @@ This is a selection of the technologies I'm proficient in and enjoy working with
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="c" />
       <br><strong>C</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="github" />
+      <br><strong>github</strong>
     </td>
   </tr>
 </table>
