@@ -1,1 +1,1 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0CF70C&background=FFF9F9&center=true&vCenter=true&width=435&lines=hello;I'm;amine+EL+GARDOUM;DATA+ENGINNERING;DATA+enthusiast;AI+enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=40&pause=1000&color=0CF70C&background=2B2A2A&center=true&vCenter=true&width=435&lines=hello;I'm;amine+EL+GARDOUM;DATA+ENGINNERING;DATA+enthusiast;AI)](https://git.io/typing-svg)
