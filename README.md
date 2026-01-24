@@ -50,10 +50,10 @@ class DataEngineer:
     
     def contact(self):
         return {
-            "email": "your.email@example.com",
-            "linkedin": "linkedin.com/in/yourprofile",
-            "github": "github.com/yourusername",
-            "portfolio": "yourportfolio.com"
+            "email": "amine.elgardoum@etu.aue.ac.ma",
+            "linkedin": "https://www.linkedin.com/in/amine-el-gardoum-491a82333/",
+            "github": "https://github.com/amineelgardoum-rgb",
+            "portfolio": "https://amine-s-portfolio.netlify.app/"
         }
 
 # Initialize
