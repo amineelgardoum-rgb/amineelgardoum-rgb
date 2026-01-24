@@ -20,20 +20,46 @@ I'm a **Data Engineer** who loves architecting elegant data solutions and buildi
 class DataEngineer:
     def __init__(self):
         self.name = "Amine El Gardoum"
-        self.role = "Data Engineer"
+        self.role = "Data Engineer & ML Enthusiast"
         self.location = "Morocco 🇲🇦"
-        self.passions = ["Data Pipelines", "ML Systems", "Cloud Architecture"]
+        self.passion = "Turning raw data into intelligent systems"
+        
+    def get_expertise(self):
+        return {
+            "data_engineering": ["Kafka", "Airflow", "dbt", "Spark"],
+            "ml_ai": ["TensorFlow", "LangChain", "RAG Systems", "NLP"],
+            "infrastructure": ["Docker", "AWS", "Kubernetes", "Terraform"],
+            "databases": ["PostgreSQL", "MongoDB", "Redis", "MinIO"]
+        }
     
     def current_focus(self):
         return [
-            "🤖 Building RAG-powered AI systems",
-            "☁️ Mastering AWS & serverless patterns",
-            "🐳 Deep-diving into container orchestration",
-            "📊 Real-time streaming architectures"
+            "🤖 Building production-ready RAG systems",
+            "⚡ Real-time data streaming with Kafka",
+            "☁️ Cloud-native architectures on AWS",
+            "🎯 End-to-end ML pipeline automation"
         ]
     
-    def looking_for(self):
-        return "Collaborations on innovative data & AI projects"
+    def open_to(self):
+        return [
+            "💼 Full-time Data Engineering opportunities",
+            "🚀 Freelance projects (ML/Data pipelines)",
+            "🤝 Open-source collaborations",
+            "📚 Knowledge sharing & mentorship"
+        ]
+    
+    def contact(self):
+        return {
+            "email": "your.email@example.com",
+            "linkedin": "linkedin.com/in/yourprofile",
+            "github": "github.com/yourusername",
+            "portfolio": "yourportfolio.com"
+        }
+
+# Initialize
+me = DataEngineer()
+print(f"👋 Hi! I'm {me.name}, a {me.role} from {me.location}")
+print(f"🎯 Mission: {me.passion}")
 ```
 
 ---
