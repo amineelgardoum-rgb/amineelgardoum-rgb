@@ -50,7 +50,7 @@ class DataEngineer:
     
     def contact(self):
         return {
-            "email": "amine.elgardoum@etu.aue.ac.ma",
+            "email": "amine.elgardoum@etu.uae.ac.ma",
             "linkedin": "https://www.linkedin.com/in/amine-el-gardoum-491a82333/",
             "github": "https://github.com/amineelgardoum-rgb",
             "portfolio": "https://amine-s-portfolio.netlify.app/"
