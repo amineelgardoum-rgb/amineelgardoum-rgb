@@ -1,196 +1,196 @@
 <div align="center">
 
-# 👋 Hey, I'm Amine El Gardoum
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Data+Engineer+%7C+AI+Enthusiast;Building+Scalable+Data+Pipelines;Turning+Data+Into+Intelligence;Always+Shipping%2C+Always+Learning" alt="Typing Animation" />
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amine-el-gardoum-491a82333)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AMINE44467019)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF7139?style=for-the-badge&logo=firefox&logoColor=white)](https://porftolio-amine.netlify.app/)
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:0d1f2d,100:0a3d62&height=200&section=header&text=Amine%20El%20Gardoum&fontSize=52&fontColor=e8f4f8&fontAlignY=38&desc=Data%20Engineer%20%E2%80%A2%20AI%20Builder%20%E2%80%A2%20Morocco&descAlignY=60&descSize=16&descColor=5dade2&animation=fadeIn"/>
 
 </div>
 
+<br/>
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/amine-el-gardoum-491a82333">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/amineelgardoum-rgb">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://amine-s-portfolio.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-FF6B35?style=flat-square&logo=firefox&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="mailto:amine.elgardoum@etu.uae.ac.ma">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://x.com/AMINE44467019">
+    <img src="https://img.shields.io/badge/Twitter-000000?style=flat-square&logo=x&logoColor=white"/>
+  </a>
+</div>
+
+<br/>
+
 ---
 
-## 🎯 About Me
-
-I'm a **Data Engineer** who loves architecting elegant data solutions and building AI-powered applications. I thrive at the intersection of data infrastructure, machine learning, and cloud technologies—transforming messy data into production-ready intelligence.
-
-```python
-class DataEngineer:
-    def __init__(self):
-        self.name = "Amine El Gardoum"
-        self.role = "Data Engineer & ML Enthusiast"
-        self.location = "Morocco 🇲🇦"
-        self.passion = "Turning raw data into intelligent systems"
-        
-    def get_expertise(self):
-        return {
-            "data_engineering": ["Kafka", "Airflow", "dbt", "Spark"],
-            "ml_ai": ["TensorFlow", "LangChain", "RAG Systems", "NLP"],
-            "infrastructure": ["Docker", "AWS", "Kubernetes", "Terraform"],
-            "databases": ["PostgreSQL", "MongoDB", "Redis", "MinIO"]
-        }
-    
-    def current_focus(self):
-        return [
-            "🤖 Building production-ready RAG systems",
-            "⚡ Real-time data streaming with Kafka",
-            "☁️ Cloud-native architectures on AWS",
-            "🎯 End-to-end ML pipeline automation"
-        ]
-    
-    def open_to(self):
-        return [
-            "💼 Full-time Data Engineering opportunities",
-            "🚀 Freelance projects (ML/Data pipelines)",
-            "🤝 Open-source collaborations",
-            "📚 Knowledge sharing & mentorship"
-        ]
-    
-    def contact(self):
-        return {
-            "email": "amine.elgardoum@etu.uae.ac.ma",
-            "linkedin": "https://www.linkedin.com/in/amine-el-gardoum-491a82333/",
-            "github": "https://github.com/amineelgardoum-rgb",
-            "portfolio": "https://amine-s-portfolio.netlify.app/"
-        }
-
-# Initialize
-me = DataEngineer()
-print(f"👋 Hi! I'm {me.name}, a {me.role} from {me.location}")
-print(f"🎯 Mission: {me.passion}")
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║    I build systems that turn raw data into decisions.            ║
+║    From Kafka streams to LLM pipelines — end to end.            ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
 
----
+<br/>
 
-## 🛠️ Tech Arsenal
-
-<div align="center">
-
-### Languages & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-### Data & Cloud
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-### ML & Data Science
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-</div>
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
+## ◈ &nbsp;Stack
 
 <table>
 <tr>
-<td width="50%">
+<td valign="top" width="33%">
 
-### 🤖 RAG AI Chatbot
-[![Repo](https://img.shields.io/badge/Repo-View-181717?style=flat&logo=github)](https://github.com/amineelgardoum-rgb/Rag_amine_chatbot)
-
-Production-ready intelligent chatbot leveraging Retrieval-Augmented Generation with a modern microservices architecture.
-
-**Stack:** `Python` `FastAPI` `React` `Docker Compose` `RAG`
-
-</td>
-<td width="50%">
-
-### ₿ Real-Time Bitcoin Pipeline
-[![Repo](https://img.shields.io/badge/Repo-View-181717?style=flat&logo=github)](https://github.com/amineelgardoum-rgb/transactions_e_commerce_pipeline)
-
-Scalable streaming data pipeline for ingesting, processing & visualizing live cryptocurrency data.
-
-**Stack:** `Kafka` `Docker` `Microservices` `Streaming`
+**Data Engineering**
+```
+Apache Kafka      ████████████ 
+Apache Airflow    ██████████░░
+dbt               █████████░░░
+Apache Spark      ████████░░░░
+```
 
 </td>
-</tr>
+<td valign="top" width="33%">
 
-<tr>
-<td width="50%">
-
-### 📈 Car Sales Predictor
-[![Repo](https://img.shields.io/badge/Repo-View-181717?style=flat&logo=github)](https://github.com/amineelgardoum-rgb/Prediction_Sales)
-
-ML-powered predictive analytics system for automotive sales forecasting using macroeconomic indicators.
-
-**Stack:** `Python` `Scikit-learn` `Pandas` `Jupyter`
+**AI / ML**
+```
+LangChain / RAG   ████████████
+TensorFlow        ██████████░░
+Scikit-learn      ████████████
+NLP Pipelines     ██████████░░
+```
 
 </td>
-<td width="50%">
+<td valign="top" width="33%">
 
-### 🧠 Brain Tumor Classifier
-[![Repo](https://img.shields.io/badge/Repo-View-181717?style=flat&logo=github)](https://github.com/amineelgardoum-rgb/tumor)
-
-Medical imaging classifier using deep learning to detect and classify brain tumors from MRI scans.
-
-**Stack:** `FastAPI` `Deep Learning` `Computer Vision`
+**Infrastructure**
+```
+Docker            ████████████
+AWS               █████████░░░
+PostgreSQL        ████████████
+MongoDB / Redis   ██████████░░
+```
 
 </td>
 </tr>
 </table>
 
+<br/>
+
+**Languages &nbsp;→**
+&nbsp;
+![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB)
+![Java](https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=ED8B00)
+![C](https://img.shields.io/badge/C-0d1117?style=flat-square&logo=c&logoColor=00599C)
+![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![SQL](https://img.shields.io/badge/SQL-0d1117?style=flat-square&logo=postgresql&logoColor=4169E1)
+
+**Frameworks &nbsp;→**
+&nbsp;
+![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=009688)
+![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=61DAFB)
+![Tailwind](https://img.shields.io/badge/Tailwind-0d1117?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+
+---
+
+<br/>
+
+## ◈ &nbsp;Selected Work
+
+<br/>
+
+> **🤖 RAG AI Chatbot** &nbsp;·&nbsp; [`amineelgardoum-rgb/Rag_amine_chatbot`](https://github.com/amineelgardoum-rgb/Rag_amine_chatbot)
+>
+> Production-grade chatbot powered by Retrieval-Augmented Generation. FAISS vector search, FastAPI backend, React frontend — fully containerized with Docker Compose.
+>
+> `Python` `FastAPI` `LangChain` `FAISS` `React` `Docker`
+
+<br/>
+
+> **₿ Real-Time Bitcoin Pipeline** &nbsp;·&nbsp; [`amineelgardoum-rgb/transactions_e_commerce_pipeline`](https://github.com/amineelgardoum-rgb/transactions_e_commerce_pipeline)
+>
+> High-throughput streaming pipeline ingesting live crypto transactions via Kafka. Built for scale, designed for observability.
+>
+> `Kafka` `Docker` `Streaming` `Microservices`
+
+<br/>
+
+> **📈 Car Sales Predictor** &nbsp;·&nbsp; [`amineelgardoum-rgb/Prediction_Sales`](https://github.com/amineelgardoum-rgb/Prediction_Sales)
+>
+> ML forecasting system for automotive sales using macroeconomic indicators. Full EDA → feature engineering → model deployment lifecycle.
+>
+> `Python` `Scikit-learn` `Pandas` `Jupyter`
+
+<br/>
+
+> **🧠 Brain Tumor MRI Classifier** &nbsp;·&nbsp; [`amineelgardoum-rgb/tumor`](https://github.com/amineelgardoum-rgb/tumor)
+>
+> Deep learning model for brain tumor detection and classification from MRI scans. Computer vision pipeline with FastAPI serving layer.
+>
+> `FastAPI` `Deep Learning` `Computer Vision` `TensorFlow`
+
+---
+
+<br/>
+
+## ◈ &nbsp;GitHub
+
+<div align="center">
+
+<img height="160em" src="https://github-readme-stats.vercel.app/api?username=amineelgardoum-rgb&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&title_color=5dade2&icon_color=5dade2&text_color=c9d1d9&bg_color=0d1117"/>
+&nbsp;
+<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amineelgardoum-rgb&layout=compact&theme=github_dark&hide_border=true&title_color=5dade2&text_color=c9d1d9&bg_color=0d1117"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=amineelgardoum-rgb&theme=github-compact&hide_border=true&bg_color=0d1117&color=5dade2&line=0a3d62&point=5dade2" width="95%"/>
+
 </div>
 
 ---
 
-## 📊 GitHub Analytics
+<br/>
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=amineelgardoum-rgb&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amineelgardoum-rgb&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
-</div>
+## ◈ &nbsp;Now
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amineelgardoum-rgb&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
-</div>
+```yaml
+currently:
+  - Deepening Kubernetes & service mesh patterns
+  - Building production MLOps pipelines
+  - Exploring vector databases & semantic search
+  - Open to: full-time roles · freelance · open-source
 
----
+location: Morocco 🇲🇦
+timezone: UTC+1
+status: Open to opportunities
+```
 
-## 🎓 Current Learning Path
-
-- 🔹 Advanced Kubernetes orchestration & service mesh patterns
-- 🔹 Serverless data processing with AWS Lambda & Step Functions
-- 🔹 Vector databases & semantic search optimization
-- 🔹 MLOps best practices & model deployment pipelines
+<br/>
 
 ---
-
-## 💡 Philosophy
-
-> **"Data is the new oil, but insights are the refined fuel that powers innovation."**
-
-I believe in writing code that's not just functional, but elegant—treating software craftsmanship as an art form. Every data pipeline should be reliable, every API should be intuitive, and every solution should be built to scale.
-
----
-
-## 📫 Let's Connect
-
-I'm always open to discussing **data engineering**, **AI applications**, or **interesting technical challenges**. Whether you want to collaborate on a project, share ideas, or just talk tech—reach out!
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amine-el-gardoum-491a82333)
-[![Email](https://img.shields.io/badge/Email-Drop_a_Line-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Explore_Work-FF7139?style=for-the-badge&logo=firefox&logoColor=white)](https://porftolio-amine.netlify.app/)
+<sub>
+  <b>→ Building at the intersection of data infrastructure and intelligence.</b>
+  <br/>
+  If you're working on something interesting, let's talk.
+</sub>
 
----
+<br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=amineelgardoum-rgb&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=amineelgardoum-rgb&color=0a3d62&style=flat-square&label=profile+views"/>
 
-**Thanks for stopping by! ⭐ Feel free to star repos you find interesting!**
+<br/><br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a3d62,50:0d1f2d,100:0a0a0a&height=100&section=footer"/>
 
 </div>
