@@ -21,7 +21,10 @@ on:
 permissions:
   contents: write
 
-# summary-cards.yml also pushes to main, so the two must not race each other.
+# summary-cards.yml also pushes to main. The concurrency group alone is not
+# enough: runs triggered by the same push were observed starting in the same
+# second, and a plain `git push` then fails with "fetch first", silently losing
+# the SVG. The Commit step therefore rebases onto origin/main before pushing.
 concurrency:
   group: main-assets
   cancel-in-progress: false
@@ -34,6 +37,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          # The Commit step rebases onto origin/main, which needs real history
+          # rather than checkout@v4's default shallow clone.
+          fetch-depth: 0
 
       - name: Generate trophy
         uses: soulteary/github-profile-trophy-action@v1.0.0
@@ -50,4 +57,7 @@ jobs:
           git add assets/trophy.svg
           # Skip the commit (but not the push) when the SVG is unchanged.
           git diff --staged --quiet || git commit -m "chore: refresh trophy card"
-          git push
+          # summary-cards.yml can land a commit on main while this job runs, so
+          # replay the trophy commit on top of it instead of being rejected.
+          git pull --rebase origin main
+          git push origin main
