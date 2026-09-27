@@ -25,6 +25,14 @@ class Amine:
     location   = "Morocco 🇲🇦"
     seeking    = "Internship / entry-level — Data Engineering, Data Science, AI"
 
+    links = {
+        "linkedin": "https://www.linkedin.com/in/amine-el-gardoum-491a82333",
+        "portfolio": "https://amine-s-portfolio.netlify.app/",
+        "email":     "amine.elgardoum@etu.uae.ac.ma",
+        "x":         "https://x.com/AMINE44467019",
+        "github":    "https://github.com/amineelgardoum-rgb",
+    }
+
     focus = [
         "🤖  RAG pipelines & LLM-powered agents",
         "⚡  Data pipeline orchestration (Airflow)",
@@ -49,202 +57,251 @@ class Amine:
 
 ---
 
-## 🔥 Currently
+## `currently`
 
-- 🛠️ Wrapping up my **Data Engineering** degree at **ENSA Al Hoceima**.
-- 🤖 Building **RAG + agent** systems end to end — ingestion, retrieval, serving.
-- 📚 Deepening **Airflow orchestration** and **containerized deployment** with Docker.
-- 🔎 Looking for an **internship or entry-level role** where data meets applied AI.
-
----
-
-## 💼 Experience
-
-**AI Engineer Intern — BCC-BEY Consulting & Communication**
-*Oujda, Morocco (Remote) · Jul 2026 – Sep 2026*
-
-- 🧩 Designed and built a **RAG chatbot for automatic PDF summarization**, using LangChain to orchestrate retrieval and generation.
-- 📥 Built the document **ingestion & indexing pipeline** (text extraction, chunking, embeddings) powering semantic search.
-- ✍️ Integrated the generation model to produce **context-aware, relevant summaries** from retrieved passages.
-
----
-
-## 🧭 How I Work
-
-```
-📡 Ingest  →  🧹 Clean & Model  →  🤖 Embed / Train  →  🚀 Serve  →  📊 Monitor
-   Kafka        Pandas / SQL       LangChain / TF      FastAPI      Grafana
-   Airflow      dbt                Scikit-learn         Docker      Prometheus
+```python
+currently = [
+    "🛠️  Wrapping up my Data Engineering degree at ENSA Al Hoceima",
+    "🤖  Building RAG + agent systems end to end",
+    "      ↳ ingestion, retrieval, serving",
+    "📚  Deepening Airflow orchestration + containerized deploys with Docker",
+    "🔎  Looking for an internship or entry-level role",
+    "      ↳ where data meets applied AI",
+]
 ```
 
-I like building the **full loop** — not just a model in a notebook, but the pipeline that feeds it and the API/dashboard that serves it.
+---
+
+## `experience`
+
+```python
+from dataclasses import dataclass, field
+
+
+@dataclass
+class Role:
+    company: str
+    title: str
+    location: str
+    period: str
+    highlights: list[str] = field(default_factory=list)
+
+
+EXPERIENCE = [
+    Role(
+        company="BCC-BEY Consulting & Communication",
+        title="AI Engineer Intern",
+        location="Oujda, Morocco (Remote)",
+        period="Jul 2026 – Sep 2026",
+        highlights=[
+            "🧩  Built a RAG chatbot for automatic PDF summarization",
+            "      ↳ LangChain orchestrating retrieval and generation",
+            "📥  Built the document ingestion & indexing pipeline",
+            "      ↳ text extraction, chunking, embeddings for semantic search",
+            "✍️  Integrated the generation model to produce",
+            "      ↳ context-aware summaries from retrieved passages",
+        ],
+    ),
+]
+```
 
 ---
 
-## ⚙️ Tech Stack
+## `how_i_work`
+
+```python
+STAGES = [
+    ("📡 Ingest",        ("Kafka", "Airflow")),
+    ("🧹 Clean & Model", ("Pandas", "SQL", "dbt")),
+    ("🤖 Embed / Train", ("LangChain", "TensorFlow", "Scikit-learn")),
+    ("🚀 Serve",         ("FastAPI", "Docker")),
+    ("📊 Monitor",       ("Grafana", "Prometheus")),
+]
+
+# I like building the full loop — not just a model in a notebook, but the
+# pipeline that feeds it and the API/dashboard that serves it.
+flow = " → ".join(f"{name} ({', '.join(tools)})" for name, tools in STAGES)
+```
+
+---
+
+## `stack`
+
+```python
+STACK = {
+    "data engineering": [
+        "Apache Kafka",
+        "Apache Airflow",
+        "Apache Spark",
+        "dbt",
+    ],
+    "ai / ml": [
+        "LangChain",
+        "HuggingFace",
+        "Ollama",
+        "Google Gemini",
+        "TensorFlow",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+    ],
+    "infrastructure & databases": [
+        "Docker",
+        "AWS",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "ElasticSearch",
+    ],
+    "observability": [
+        "Prometheus",
+        "Grafana",
+    ],
+    "languages & frameworks": [
+        "Python",
+        "Java",
+        "SQL",
+        "FastAPI",
+        "React",
+        "TailwindCSS",
+    ],
+}
+```
+
+---
+
+## `projects`
+
+```python
+PROJECTS = [
+    {
+        "name": "RAG AI Chatbot",
+        "url": "https://github.com/amineelgardoum-rgb/Rag_amine_chatbot",
+        "tagline": "LLM-powered assistant, ingestion to generation.",
+        "stack": ["Python", "LangChain", "Docker"],
+        "highlights": [
+            "🔍  Retrieval-augmented generation (Gemini, HuggingFace)",
+            "⚡  FastAPI backend · React frontend",
+            "🐳  Fully containerized",
+        ],
+    },
+    {
+        "name": "GITA — GitHub Repo AI Agent",
+        "url": None,
+        "tagline": "Agent on the GitHub API, orchestrating many LLM calls.",
+        "stack": ["Python", "LangChain", "FastAPI"],
+        "highlights": [
+            "🔗  GitHub API integration",
+            "🧠  Gemini / Ollama orchestration",
+            "⚡  FastAPI service layer",
+        ],
+    },
+    {
+        "name": "Jobs Data Warehouse",
+        "url": None,
+        "tagline": "Orchestrated pipeline with real-time monitoring.",
+        "stack": ["Airflow", "PostgreSQL", "Grafana"],
+        "highlights": [
+            "🔁  Automated pipeline (Apache Airflow)",
+            "📈  Real-time monitoring (Prometheus, Grafana)",
+            "🗄️  PostgreSQL warehouse · React dashboard",
+        ],
+    },
+    {
+        "name": "Bitcoin Stream Pipeline",
+        "url": None,
+        "tagline": "High-throughput real-time crypto transactions.",
+        "stack": ["Kafka", "Docker"],
+        "highlights": [
+            "📡  Live data ingestion at scale",
+            "🔭  Built for observability",
+            "🛠️  Microservices architecture",
+        ],
+    },
+    {
+        "name": "Car Sales Predictor",
+        "url": "https://github.com/amineelgardoum-rgb/Prediction_Sales",
+        "tagline": "ML forecasting system for automotive sales.",
+        "stack": ["Python", "Scikit-learn"],
+        "highlights": [
+            "📊  Macroeconomic indicators",
+            "🔬  Full EDA & feature engineering",
+            "🏭  End-to-end deployment pipeline",
+        ],
+    },
+    {
+        "name": "Brain Tumor Classifier",
+        "url": "https://github.com/amineelgardoum-rgb/tumor",
+        "tagline": "Deep learning MRI scan classifier.",
+        "stack": ["TensorFlow", "FastAPI"],
+        "highlights": [
+            "🖼️  Computer vision pipeline",
+            "🎯  Tumor detection & classification",
+            "⚡  FastAPI serving layer",
+        ],
+    },
+]
+```
+
+---
+
+## `education`
+
+```python
+EDUCATION = [
+    {
+        "school": "ENSA Al Hoceima",
+        "degree": "Ingénierie des Données (Data Engineering)",
+        "cohort": "Class of 2027",
+        "status": "Final year, 2026 → 2027",
+    },
+]
+```
+
+---
+
+## `certs`
+
+```python
+CERTS = [
+    {
+        "name": "MongoDB — SQL to Document Model",
+        "issuer": "MongoDB",
+        "focus": "NoSQL data modelling & aggregation",
+        "url": "https://learn.mongodb.com/courses/relational-to-document-model",
+    },
+    {
+        "name": "Understanding Cloud Computing",
+        "issuer": "DataCamp",
+        "focus": "Cloud fundamentals & service models",
+        "url": "https://www.datacamp.com/courses/understanding-cloud-computing",
+    },
+    {
+        "name": "Understanding Microsoft Azure",
+        "issuer": "DataCamp",
+        "focus": "Azure services & architecture basics",
+        "url": "https://www.datacamp.com/courses/understanding-microsoft-azure",
+    },
+]
+```
+
+---
+
+## `languages`
+
+```python
+LANGUAGES = {
+    "Arabic":  "Native",
+    "French":  "Fluent",
+    "English": "Intermediate / Professional",
+}
+```
+
+---
+
+## `stats`
 
 <div align="center">
-
-### 🔁 Data Engineering
-![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
-![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
-
-### 🤖 AI / ML
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![Ollama](https://img.shields.io/badge/Ollama-111111?style=for-the-badge&logo=ollama&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-### 🏗️ Infrastructure & Databases
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
-
-### 📈 Observability
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-
-### 💻 Languages & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-</div>
-
----
-
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 [RAG AI Chatbot](https://github.com/amineelgardoum-rgb/Rag_amine_chatbot)
-> LLM-powered assistant from data ingestion to generation.
-
-- 🔍 Retrieval-augmented generation (Gemini, HuggingFace)
-- ⚡ FastAPI backend · ⚛️ React frontend
-- 🐳 Fully containerized
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 GITA — GitHub Repo AI Agent
-> Agent connected to the GitHub API, orchestrating multiple LLM calls.
-
-- 🔗 GitHub API integration
-- 🧠 Gemini / Ollama orchestration
-- ⚡ FastAPI service layer
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📊 Jobs Data Warehouse
-> Orchestrated data pipeline with real-time monitoring dashboards.
-
-- 🔁 Automated pipeline (Apache Airflow)
-- 📈 Real-time monitoring (Prometheus, Grafana)
-- 🗄️ PostgreSQL warehouse · ⚛️ React dashboard
-
-![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### ₿ Bitcoin Stream Pipeline
-> High-throughput real-time crypto transaction pipeline.
-
-- 📡 Live data ingestion at scale
-- 🔭 Built for observability
-- 🛠️ Microservices architecture
-
-![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🚗 [Car Sales Predictor](https://github.com/amineelgardoum-rgb/Prediction_Sales)
-> ML forecasting system for automotive sales.
-
-- 📊 Macroeconomic indicators
-- 🔬 Full EDA & feature engineering
-- 🏭 End-to-end deployment pipeline
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### 🧬 [Brain Tumor Classifier](https://github.com/amineelgardoum-rgb/tumor)
-> Deep learning MRI scan classifier.
-
-- 🖼️ Computer vision pipeline
-- 🎯 Tumor detection & classification
-- ⚡ FastAPI serving layer
-
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-</td>
-</tr>
-</table>
-
----
-
-## 🎓 Education
-
-**ENSA Al Hoceima** — Ingénierie des Données *(Data Engineering)*, **Class of 2027**
-*Final year, 2026 → 2027*
-
----
-
-## 📜 Certifications
-
-| Credential | Issuer | Focus |
-| :--- | :--- | :--- |
-| [MongoDB — SQL to Document Model](https://learn.mongodb.com/courses/relational-to-document-model) | MongoDB | NoSQL data modelling & aggregation |
-| [Understanding Cloud Computing](https://www.datacamp.com/courses/understanding-cloud-computing) | DataCamp | Cloud fundamentals & service models |
-| [Understanding Microsoft Azure](https://www.datacamp.com/courses/understanding-microsoft-azure) | DataCamp | Azure services & architecture basics |
-
----
-
-## 🌐 Languages
-
-`Arabic` Native · `French` Fluent · `English` Intermediate / Professional
-
----
-
-<div align="center">
-
-## 📊 GitHub Stats
 
 <img src="https://raw.githubusercontent.com/amineelgardoum-rgb/amineelgardoum-rgb/main/profile-summary-card-output/radical/3-stats.svg" width="49%" alt="Total stars, repos, forks, issues, commits and pull requests"/>
 <img src="https://raw.githubusercontent.com/amineelgardoum-rgb/amineelgardoum-rgb/main/profile-summary-card-output/radical/1-repos-per-language.svg" width="49%" alt="Languages across all public repositories"/>
@@ -257,11 +314,11 @@ I like building the **full loop** — not just a model in a notebook, but the pi
   <img src="https://streak-stats.demolab.com/?user=amineelgardoum-rgb&theme=radical&hide_border=true" width="49%" alt="Contribution streak"/>
 </a>
 
-### 🏆 Trophies
+### `trophies`
 
 <img src="https://raw.githubusercontent.com/amineelgardoum-rgb/amineelgardoum-rgb/main/assets/trophy.svg" width="100%" alt="GitHub trophies"/>
 
-### 🐍 Contribution Snake
+### `snake`
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amineelgardoum-rgb/amineelgardoum-rgb/output/github-contribution-grid-snake-dark.svg"/>
@@ -279,9 +336,16 @@ Cards and snake are generated and committed daily by
 
 ---
 
-## 💬 Open to
+## `open_to`
 
-**Internships & entry-level roles · Full-time · Freelance projects · Open-source collaboration**
+```python
+OPEN_TO = [
+    "💼  Internships & entry-level roles",
+    "🚀  Full-time Data / AI engineering positions",
+    "🔧  Freelance data & automation projects",
+    "🌍  Open-source collaboration",
+]
+```
 
 <div align="center">
 
