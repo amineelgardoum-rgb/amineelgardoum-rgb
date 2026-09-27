@@ -230,9 +230,9 @@ I like building the **full loop** — not just a model in a notebook, but the pi
 
 | Credential | Issuer | Focus |
 | :--- | :--- | :--- |
-| MongoDB — SQL to Document Model | MongoDB | NoSQL data modelling & aggregation |
-| Understanding Cloud Computing | DataCamp | Cloud fundamentals & service models |
-| Understanding Microsoft Azure | DataCamp | Azure services & architecture basics |
+| [MongoDB — SQL to Document Model](https://learn.mongodb.com/courses/relational-to-document-model) | MongoDB | NoSQL data modelling & aggregation |
+| [Understanding Cloud Computing](https://www.datacamp.com/courses/understanding-cloud-computing) | DataCamp | Cloud fundamentals & service models |
+| [Understanding Microsoft Azure](https://www.datacamp.com/courses/understanding-microsoft-azure) | DataCamp | Azure services & architecture basics |
 
 ---
 
