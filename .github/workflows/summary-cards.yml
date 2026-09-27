@@ -1,0 +1,51 @@
+name: Refresh summary cards
+
+# Regenerates the github-profile-summary-cards SVGs and commits them to main
+# under profile-summary-card-output/<theme>/. The README embeds them from there:
+#   https://raw.githubusercontent.com/<owner>/<repo>/main/profile-summary-card-output/radical/3-stats.svg
+# Runs on the automatic GITHUB_TOKEN — no PAT secret needed. Public data only.
+
+on:
+  schedule:
+    - cron: "40 2 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/summary-cards.yml
+
+permissions:
+  contents: write
+
+# trophy.yml also pushes to main, so the two must not race each other.
+concurrency:
+  group: main-assets
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Regenerate summary cards
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # The action commits with plain `git push`, so it needs a checkout first
+      # (and the persisted credentials that come with it).
+      - uses: actions/checkout@v4
+
+      - name: Generate cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          # One theme only, to match the purple used across the README.
+          THEME: radical
+          # Morocco is UTC+1 — only affects the "productive time" card.
+          UTC_OFFSET: "1"
+          # Keep this profile repo out of the language aggregation; it holds a
+          # README and no real code, so it would otherwise skew the charts.
+          EXCLUDE_REPOS: amineelgardoum-rgb
+          NAME: Amine El Gardoum

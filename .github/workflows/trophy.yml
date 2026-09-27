@@ -1,0 +1,53 @@
+name: Refresh trophy card
+
+# Self-hosts the profile trophy instead of hotlinking
+# github-profile-trophy.vercel.app, whose public demo deployment is frequently
+# rate-limited or suspended (it currently answers 402 for every user).
+# The SVG is committed to main and embedded from there:
+#   https://raw.githubusercontent.com/<owner>/<repo>/main/assets/trophy.svg
+# Public data only, so the automatic GITHUB_TOKEN is enough — no PAT secret.
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/trophy.yml
+
+permissions:
+  contents: write
+
+# summary-cards.yml also pushes to main, so the two must not race each other.
+concurrency:
+  group: main-assets
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Regenerate trophy card
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate trophy
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          # Same query-string options the hosted service accepts.
+          options: 'username=${{ github.repository_owner }}&theme=radical&column=6&row=1&no-frame=true&margin-w=15&margin-h=15'
+          path: assets/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/trophy.svg
+          # Skip the commit (but not the push) when the SVG is unchanged.
+          git diff --staged --quiet || git commit -m "chore: refresh trophy card"
+          git push

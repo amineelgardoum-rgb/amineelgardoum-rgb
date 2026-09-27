@@ -2,12 +2,15 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Amine%20El%20Gardoum&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Engineering%20Student%20%C2%B7%20AI%20%2F%20RAG%20Systems%20%C2%B7%20Morocco%20%F0%9F%87%B2%F0%9F%87%A6&descAlignY=55&descSize=18"/>
 
+**Building retrieval-augmented systems and the data pipelines that feed them.**
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amine-el-gardoum-491a82333)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF6B35?style=for-the-badge&logo=vercel&logoColor=white)](https://amine-s-portfolio.netlify.app/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amine.elgardoum@etu.uae.ac.ma)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AMINE44467019)
 
 <img src="https://komarev.com/ghpvc/?username=amineelgardoum-rgb&style=for-the-badge&color=6c11ff" alt="profile views"/>
+<img src="https://img.shields.io/github/followers/amineelgardoum-rgb?style=for-the-badge&logo=github&logoColor=white" alt="followers"/>
 
 </div>
 
@@ -18,9 +21,9 @@
 ```python
 class Amine:
     role       = "Data Engineering Student & AI Systems Builder"
-    school     = "ENSA Al Hoceima — Final-year Data Engineering (2026)"
+    school     = "ENSA Al Hoceima — Ingénierie des Données, Class of 2027"
     location   = "Morocco 🇲🇦"
-    seeking    = "Pre-employment internship — Data Science / AI & Automation"
+    seeking    = "Internship / entry-level — Data Engineering, Data Science, AI"
 
     focus = [
         "🤖  RAG pipelines & LLM-powered agents",
@@ -32,8 +35,8 @@ class Amine:
     recent_experience = "AI Engineer Intern @ BCC-BEY Consulting (Jul–Sep 2026)"
 
     open_to = [
-        "💼  Full-time data/AI roles",
-        "🔧  Freelance projects",
+        "💼  Data / AI engineering internships & full-time roles",
+        "🔧  Freelance data & automation projects",
         "🌍  Open-source collaboration",
     ]
 
@@ -43,6 +46,15 @@ class Amine:
         "Vector databases & semantic search optimization",
     ]
 ```
+
+---
+
+## 🔥 Currently
+
+- 🛠️ Wrapping up my **Data Engineering** degree at **ENSA Al Hoceima**.
+- 🤖 Building **RAG + agent** systems end to end — ingestion, retrieval, serving.
+- 📚 Deepening **Airflow orchestration** and **containerized deployment** with Docker.
+- 🔎 Looking for an **internship or entry-level role** where data meets applied AI.
 
 ---
 
@@ -81,6 +93,9 @@ I like building the **full loop** — not just a model in a notebook, but the pi
 
 ### 🤖 AI / ML
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Ollama](https://img.shields.io/badge/Ollama-111111?style=for-the-badge&logo=ollama&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -93,6 +108,10 @@ I like building the **full loop** — not just a model in a notebook, but the pi
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+
+### 📈 Observability
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
 ### 💻 Languages & Frameworks
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -110,7 +129,7 @@ I like building the **full loop** — not just a model in a notebook, but the pi
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🧠 [RAG AI Chatbot](https://github.com/amineelgardoum-rgb/Rag_amine_chatbot)
 > LLM-powered assistant from data ingestion to generation.
@@ -124,7 +143,7 @@ I like building the **full loop** — not just a model in a notebook, but the pi
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🤖 GITA — GitHub Repo AI Agent
 > Agent connected to the GitHub API, orchestrating multiple LLM calls.
@@ -140,7 +159,7 @@ I like building the **full loop** — not just a model in a notebook, but the pi
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 📊 Jobs Data Warehouse
 > Orchestrated data pipeline with real-time monitoring dashboards.
@@ -154,9 +173,9 @@ I like building the **full loop** — not just a model in a notebook, but the pi
 ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ₿ [Bitcoin Stream Pipeline](https://github.com/amineelgardoum-rgb/transactions_e_commerce_pipeline)
+### ₿ Bitcoin Stream Pipeline
 > High-throughput real-time crypto transaction pipeline.
 
 - 📡 Live data ingestion at scale
@@ -169,7 +188,7 @@ I like building the **full loop** — not just a model in a notebook, but the pi
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🚗 [Car Sales Predictor](https://github.com/amineelgardoum-rgb/Prediction_Sales)
 > ML forecasting system for automotive sales.
@@ -182,7 +201,7 @@ I like building the **full loop** — not just a model in a notebook, but the pi
 ![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🧬 [Brain Tumor Classifier](https://github.com/amineelgardoum-rgb/tumor)
 > Deep learning MRI scan classifier.
@@ -200,13 +219,20 @@ I like building the **full loop** — not just a model in a notebook, but the pi
 
 ---
 
-## 🎓 Education & Certifications
+## 🎓 Education
 
-**ENSA Al Hoceima** — Ingénierie des Données, Class of 2027 *(final-year, 2026–present)*
+**ENSA Al Hoceima** — Ingénierie des Données *(Data Engineering)*, **Class of 2027**
+*Final year, 2026 → 2027*
 
-- ✅ MongoDB — SQL to Document Model
-- ✅ DataCamp — Understanding Cloud Computing
-- ✅ DataCamp — Understanding Microsoft Azure
+---
+
+## 📜 Certifications
+
+| Credential | Issuer | Focus |
+| :--- | :--- | :--- |
+| MongoDB — SQL to Document Model | MongoDB | NoSQL data modelling & aggregation |
+| Understanding Cloud Computing | DataCamp | Cloud fundamentals & service models |
+| Understanding Microsoft Azure | DataCamp | Azure services & architecture basics |
 
 ---
 
@@ -218,30 +244,57 @@ I like building the **full loop** — not just a model in a notebook, but the pi
 
 <div align="center">
 
-### 📊 GitHub Stats
+## 📊 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=amineelgardoum-rgb&show_icons=true&theme=radical&hide_border=true&count_private=true" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=amineelgardoum-rgb&theme=radical&hide_border=true" width="48%"/>
+<img src="https://raw.githubusercontent.com/amineelgardoum-rgb/amineelgardoum-rgb/main/profile-summary-card-output/radical/3-stats.svg" width="49%" alt="Total stars, repos, forks, issues, commits and pull requests"/>
+<img src="https://raw.githubusercontent.com/amineelgardoum-rgb/amineelgardoum-rgb/main/profile-summary-card-output/radical/1-repos-per-language.svg" width="49%" alt="Languages across all public repositories"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amineelgardoum-rgb&layout=compact&theme=radical&hide_border=true" width="48%"/>
+<br/>
+
+<img src="https://raw.githubusercontent.com/amineelgardoum-rgb/amineelgardoum-rgb/main/profile-summary-card-output/radical/2-most-commit-language.svg" width="24%" alt="Languages I actually commit in"/>
+<img src="https://raw.githubusercontent.com/amineelgardoum-rgb/amineelgardoum-rgb/main/profile-summary-card-output/radical/4-productive-time.svg" width="24%" alt="Times of day I code most"/>
+<a href="https://github.com/amineelgardoum-rgb">
+  <img src="https://streak-stats.demolab.com/?user=amineelgardoum-rgb&theme=radical&hide_border=true" width="49%" alt="Contribution streak"/>
+</a>
 
 ### 🏆 Trophies
 
-<img src="https://github-profile-trophy.vercel.app/?username=amineelgardoum-rgb&theme=radical&no-frame=true&row=1&column=6"/>
+<img src="https://raw.githubusercontent.com/amineelgardoum-rgb/amineelgardoum-rgb/main/assets/trophy.svg" width="100%" alt="GitHub trophies"/>
 
-### 🐍 Contribution Graph
+### 🐍 Contribution Snake
 
-<img src="https://raw.githubusercontent.com/amineelgardoum-rgb/amineelgardoum-rgb/output/github-contribution-grid-snake.svg"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amineelgardoum-rgb/amineelgardoum-rgb/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amineelgardoum-rgb/amineelgardoum-rgb/output/github-contribution-grid-snake.svg"/>
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/amineelgardoum-rgb/amineelgardoum-rgb/output/github-contribution-grid-snake.svg"/>
+</picture>
 
-> To activate the snake animation above, add the [`platane/snk`](https://github.com/Platane/snk) GitHub Action to your profile repo — it auto-generates that SVG on a schedule.
+<sub>
+Cards and snake are generated and committed daily by
+<a href="https://github.com/amineelgardoum-rgb/amineelgardoum-rgb/actions/workflows/snake.yml">workflows</a>
+&mdash; no third-party image service involved.
+</sub>
 
-### 💬 Open to
-
-[![Full-time](https://img.shields.io/badge/Full--time_Roles-Available-brightgreen?style=for-the-badge)](mailto:amine.elgardoum@etu.uae.ac.ma)
-[![Freelance](https://img.shields.io/badge/Freelance_Projects-Open-blue?style=for-the-badge)](mailto:amine.elgardoum@etu.uae.ac.ma)
-[![Open Source](https://img.shields.io/badge/Open--source-Collaboration-orange?style=for-the-badge)](https://github.com/amineelgardoum-rgb)
+</div>
 
 ---
+
+## 💬 Open to
+
+**Internships & entry-level roles · Full-time · Freelance projects · Open-source collaboration**
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amine.elgardoum@etu.uae.ac.ma)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amine-el-gardoum-491a82333)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B35?style=for-the-badge&logo=vercel&logoColor=white)](https://amine-s-portfolio.netlify.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amineelgardoum-rgb)
+
+</div>
+
+---
+
+<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling"/>
 
