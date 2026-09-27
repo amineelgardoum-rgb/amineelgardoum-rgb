@@ -1,11 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Amine%20El%20Gardoum&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Engineer%20%C2%B7%20AI%20Systems%20Builder%20%C2%B7%20Morocco%20%F0%9F%87%B2%F0%9F%87%A6&descAlignY=55&descSize=18"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Amine%20El%20Gardoum&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Engineering%20Student%20%C2%B7%20AI%20%2F%20RAG%20Systems%20%C2%B7%20Morocco%20%F0%9F%87%B2%F0%9F%87%A6&descAlignY=55&descSize=18"/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amine-el-gardoum-491a82333)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF6B35?style=for-the-badge&logo=vercel&logoColor=white)](https://amine-s-portfolio.netlify.app/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amine.elgardoum@etu.uae.ac.ma)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AMINE44467019)
+
+<img src="https://komarev.com/ghpvc/?username=amineelgardoum-rgb&style=for-the-badge&color=6c11ff" alt="profile views"/>
 
 </div>
 
@@ -15,25 +17,55 @@
 
 ```python
 class Amine:
-    role     = "Data Engineer & AI Builder"
-    location = "Morocco 🇲🇦"
-    focus    = [
-        "⚡  Real-time streaming pipelines",
-        "🤖  RAG & LLM systems",
-        "☁️  Cloud-native data infrastructure",
-        "🚀  End-to-end ML deployment",
+    role       = "Data Engineering Student & AI Systems Builder"
+    school     = "ENSA Al Hoceima — Final-year Data Engineering (2026)"
+    location   = "Morocco 🇲🇦"
+    seeking    = "Pre-employment internship — Data Science / AI & Automation"
+
+    focus = [
+        "🤖  RAG pipelines & LLM-powered agents",
+        "⚡  Data pipeline orchestration (Airflow)",
+        "🔍  Semantic search & vector retrieval",
+        "🚀  End-to-end ML deployment (FastAPI)",
     ]
-    open_to  = [
+
+    recent_experience = "AI Engineer Intern @ BCC-BEY Consulting (Jul–Sep 2026)"
+
+    open_to = [
         "💼  Full-time data/AI roles",
         "🔧  Freelance projects",
         "🌍  Open-source collaboration",
     ]
-    currently_learning = [
-        "Kubernetes & service mesh patterns",
-        "Vector databases & semantic search",
-        "Serverless data processing on AWS Lambda",
+
+    currently_exploring = [
+        "No-code/low-code automation (Make, n8n, Zapier)",
+        "Multi-agent LLM systems",
+        "Vector databases & semantic search optimization",
     ]
 ```
+
+---
+
+## 💼 Experience
+
+**AI Engineer Intern — BCC-BEY Consulting & Communication**
+*Oujda, Morocco (Remote) · Jul 2026 – Sep 2026*
+
+- 🧩 Designed and built a **RAG chatbot for automatic PDF summarization**, using LangChain to orchestrate retrieval and generation.
+- 📥 Built the document **ingestion & indexing pipeline** (text extraction, chunking, embeddings) powering semantic search.
+- ✍️ Integrated the generation model to produce **context-aware, relevant summaries** from retrieved passages.
+
+---
+
+## 🧭 How I Work
+
+```
+📡 Ingest  →  🧹 Clean & Model  →  🤖 Embed / Train  →  🚀 Serve  →  📊 Monitor
+   Kafka        Pandas / SQL       LangChain / TF      FastAPI      Grafana
+   Airflow      dbt                Scikit-learn         Docker      Prometheus
+```
+
+I like building the **full loop** — not just a model in a notebook, but the pipeline that feeds it and the API/dashboard that serves it.
 
 ---
 
@@ -60,11 +92,12 @@ class Amine:
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white)
+![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 
 ### 💻 Languages & Frameworks
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
@@ -80,11 +113,10 @@ class Amine:
 <td width="50%">
 
 ### 🧠 [RAG AI Chatbot](https://github.com/amineelgardoum-rgb/Rag_amine_chatbot)
-> Production-grade chatbot using retrieval-augmented generation.
+> LLM-powered assistant from data ingestion to generation.
 
-- 🔍 FAISS vector search
-- ⚡ FastAPI backend
-- ⚛️ React frontend
+- 🔍 Retrieval-augmented generation (Gemini, HuggingFace)
+- ⚡ FastAPI backend · ⚛️ React frontend
 - 🐳 Fully containerized
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -94,12 +126,41 @@ class Amine:
 </td>
 <td width="50%">
 
+### 🤖 GITA — GitHub Repo AI Agent
+> Agent connected to the GitHub API, orchestrating multiple LLM calls.
+
+- 🔗 GitHub API integration
+- 🧠 Gemini / Ollama orchestration
+- ⚡ FastAPI service layer
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📊 Jobs Data Warehouse
+> Orchestrated data pipeline with real-time monitoring dashboards.
+
+- 🔁 Automated pipeline (Apache Airflow)
+- 📈 Real-time monitoring (Prometheus, Grafana)
+- 🗄️ PostgreSQL warehouse · ⚛️ React dashboard
+
+![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+
+</td>
+<td width="50%">
+
 ### ₿ [Bitcoin Stream Pipeline](https://github.com/amineelgardoum-rgb/transactions_e_commerce_pipeline)
 > High-throughput real-time crypto transaction pipeline.
 
-- 📡 Live data ingestion
-- 📈 Built for scale
-- 🔭 Designed for observability
+- 📡 Live data ingestion at scale
+- 🔭 Built for observability
 - 🛠️ Microservices architecture
 
 ![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
@@ -119,7 +180,6 @@ class Amine:
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
 </td>
 <td width="50%">
@@ -140,18 +200,40 @@ class Amine:
 
 ---
 
-## 📡 Currently
+## 🎓 Education & Certifications
 
-| Area | Focus |
-|:----:|:------|
-| 🔧 **Engineering** | Kubernetes orchestration & service mesh patterns |
-| 🤖 **AI / MLOps** | Model deployment pipelines at scale |
-| 🔬 **Research** | Vector databases & semantic search optimization |
-| ☁️ **Cloud** | Serverless data processing on AWS Lambda |
+**ENSA Al Hoceima** — Ingénierie des Données, Class of 2027 *(final-year, 2026–present)*
+
+- ✅ MongoDB — SQL to Document Model
+- ✅ DataCamp — Understanding Cloud Computing
+- ✅ DataCamp — Understanding Microsoft Azure
+
+---
+
+## 🌐 Languages
+
+`Arabic` Native · `French` Fluent · `English` Intermediate / Professional
 
 ---
 
 <div align="center">
+
+### 📊 GitHub Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=amineelgardoum-rgb&show_icons=true&theme=radical&hide_border=true&count_private=true" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=amineelgardoum-rgb&theme=radical&hide_border=true" width="48%"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amineelgardoum-rgb&layout=compact&theme=radical&hide_border=true" width="48%"/>
+
+### 🏆 Trophies
+
+<img src="https://github-profile-trophy.vercel.app/?username=amineelgardoum-rgb&theme=radical&no-frame=true&row=1&column=6"/>
+
+### 🐍 Contribution Graph
+
+<img src="https://raw.githubusercontent.com/amineelgardoum-rgb/amineelgardoum-rgb/output/github-contribution-grid-snake.svg"/>
+
+> To activate the snake animation above, add the [`platane/snk`](https://github.com/Platane/snk) GitHub Action to your profile repo — it auto-generates that SVG on a schedule.
 
 ### 💬 Open to
 
